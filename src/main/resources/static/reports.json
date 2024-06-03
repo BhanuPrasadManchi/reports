@@ -1,0 +1,896 @@
+{
+  "pageMetricList": [
+    {
+      "name": "Followers",
+      "val": "204"
+    },
+    {
+      "name": "Impressions",
+      "val": "6",
+      "pill": {
+        "val": "50%",
+        "type": "INCREASE",
+        "desc": "in last 7 days"
+      }
+    },
+    {
+      "name": "Profile Views",
+      "val": "6",
+      "pill": {
+        "val": "50%",
+        "type": "INCREASE",
+        "desc": "in last 7 days"
+      }
+    },
+    {
+      "name": "Reach",
+      "val": "2",
+      "pill": {
+        "val": "100%",
+        "type": "INCREASE",
+        "desc": "in last 7 days"
+      }
+    },
+    {
+      "name": "Website Clicks",
+      "val": "0",
+      "pill": {
+        "val": "0%",
+        "type": "INCREASE",
+        "desc": "in last 7 days"
+      }
+    }
+  ],
+  "graphList": [
+    {
+      "graph": {
+        "name": "New Followers",
+        "type": "line",
+        "desc": "Discover the number of New Followers that you have gained since last period.",
+        "headers": {
+          "v1": "New Followers",
+          "v2": "Lost Followers"
+        },
+        "colors": {
+          "v1": "#1E5CFF",
+          "v2": "#AC71F0"
+        },
+        "data": [
+          {
+            "label": "2024-05-22",
+            "v1": "0",
+            "v2": "0"
+          },
+          {
+            "label": "2024-05-23",
+            "v1": "0",
+            "v2": "0"
+          },
+          {
+            "label": "2024-05-24",
+            "v1": "0",
+            "v2": "0"
+          },
+          {
+            "label": "2024-05-25",
+            "v1": "1",
+            "v2": "0"
+          },
+          {
+            "label": "2024-05-26",
+            "v1": "0",
+            "v2": "0"
+          },
+          {
+            "label": "2024-05-27",
+            "v1": "0",
+            "v2": "0"
+          }
+        ]
+      },
+      "insights": {
+        "header": {
+          "text": "Followers Insights",
+          "desc": "Since Previous Period"
+        },
+        "pills": [
+          {
+            "val": "100%",
+            "type": "INCREASE",
+            "desc": "New Followers"
+          },
+          {
+            "val": "0%",
+            "type": "INCREASE",
+            "desc": "Lost Followers"
+          }
+        ],
+        "content": {
+          "type": "LINKED_TABLE",
+          "data": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "graph": {
+        "name": "Audience Reach Demographic",
+        "type": "bar",
+        "desc": "Understand your audience demographics based on age and gender",
+        "headers": {
+          "v1": "Male",
+          "v2": "Female",
+          "v3": "Unspecified"
+        },
+        "colors": {
+          "v1": "#BC9AFF",
+          "v2": "#9FEEFF",
+          "v3": "#8EADFF"
+        },
+        "data": [
+          {
+            "label": "13-17",
+            "v1": "7",
+            "v3": "2"
+          },
+          {
+            "label": "18-24",
+            "v1": "60",
+            "v2": "9",
+            "v3": "7"
+          },
+          {
+            "label": "25-34",
+            "v1": "78",
+            "v2": "4",
+            "v3": "2"
+          },
+          {
+            "label": "35-44",
+            "v1": "5",
+            "v2": "2",
+            "v3": "2"
+          },
+          {
+            "label": "45-54",
+            "v1": "1"
+          },
+          {
+            "label": "65+",
+            "v3": "1"
+          }
+        ]
+      },
+      "insights": {
+        "header": {
+          "text": "Gender Insights",
+          "desc": "Since Previous Period"
+        },
+        "content": {
+          "type": "DOUGHNUT",
+          "data": [
+            {
+              "label": "Male",
+              "val": "83",
+              "color": "#BC9AFF"
+            },
+            {
+              "label": "Female",
+              "val": "8",
+              "color": "#9FEEFF"
+            },
+            {
+              "label": "Unspecified",
+              "val": "7",
+              "color": "#8EADFF"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "locGraphs": {
+    "Cities": {
+      "name": "Locations",
+      "type": "horizontal_bar",
+      "desc": "See the places where your followers are concentrated.",
+      "headers": {
+        "v1": "viewer"
+      },
+      "colors": {
+        "v1": "#8EADFF"
+      },
+      "data": [
+        {
+          "label": "Bangalore, Karnataka",
+          "v1": "21"
+        },
+        {
+          "label": "Gaya, Bihar",
+          "v1": "14"
+        },
+        {
+          "label": "Kolkata, West Bengal",
+          "v1": "7"
+        },
+        {
+          "label": "Gurua, Bihar",
+          "v1": "7"
+        },
+        {
+          "label": "Delhi, Delhi",
+          "v1": "6"
+        },
+        {
+          "label": "Bodh Gaya, Bihar",
+          "v1": "6"
+        },
+        {
+          "label": "Mumbai, Maharashtra",
+          "v1": "5"
+        },
+        {
+          "label": "Gurugram, Haryana",
+          "v1": "4"
+        },
+        {
+          "label": "Buddha Gaya, Bihar",
+          "v1": "3"
+        },
+        {
+          "label": "Deoghar, Jharkhand",
+          "v1": "3"
+        },
+        {
+          "label": "Patna, Bihar",
+          "v1": "3"
+        },
+        {
+          "label": "Hisua, Bihar",
+          "v1": "3"
+        },
+        {
+          "label": "Hyderabad, Telangana",
+          "v1": "3"
+        },
+        {
+          "label": "Dehri, Bihar",
+          "v1": "2"
+        },
+        {
+          "label": "Darbhanga, Bihar",
+          "v1": "2"
+        },
+        {
+          "label": "Bilari, Uttar Pradesh",
+          "v1": "2"
+        },
+        {
+          "label": "Pakaur, Jharkhand",
+          "v1": "2"
+        },
+        {
+          "label": "Sanand, Gujarat",
+          "v1": "2"
+        },
+        {
+          "label": "Manama, Capital Governorate",
+          "v1": "2"
+        },
+        {
+          "label": "Faridabad, Haryana",
+          "v1": "2"
+        },
+        {
+          "label": "Dubai, Dubai",
+          "v1": "2"
+        },
+        {
+          "label": "Mahasamund, Chhattisgarh",
+          "v1": "2"
+        },
+        {
+          "label": "Noida, Uttar Pradesh",
+          "v1": "2"
+        },
+        {
+          "label": "Banei, Odisha",
+          "v1": "2"
+        },
+        {
+          "label": "Thane, Maharashtra",
+          "v1": "1"
+        },
+        {
+          "label": "Dumka, Jharkhand",
+          "v1": "1"
+        },
+        {
+          "label": "Jamtara, Jharkhand",
+          "v1": "1"
+        },
+        {
+          "label": "Chunar, Uttar Pradesh",
+          "v1": "1"
+        },
+        {
+          "label": "Yamunanagar, Haryana",
+          "v1": "1"
+        },
+        {
+          "label": "Biswanath Chariali, Assam",
+          "v1": "1"
+        },
+        {
+          "label": "Khobar, Eastern Province",
+          "v1": "1"
+        },
+        {
+          "label": "Arwal, Bihar",
+          "v1": "1"
+        },
+        {
+          "label": "Naugachhia, Bihar",
+          "v1": "1"
+        },
+        {
+          "label": "Dudhichua, Madhya Pradesh",
+          "v1": "1"
+        },
+        {
+          "label": "Champua, Odisha",
+          "v1": "1"
+        },
+        {
+          "label": "Pleiku, Gia Lai Province",
+          "v1": "1"
+        },
+        {
+          "label": "Jakarta, Jakarta",
+          "v1": "1"
+        },
+        {
+          "label": "Jodhpur, Rajasthan",
+          "v1": "1"
+        },
+        {
+          "label": "Gauhati, Assam",
+          "v1": "1"
+        },
+        {
+          "label": "Kurukshetra, Haryana",
+          "v1": "1"
+        },
+        {
+          "label": "Greater Noida, Uttar Pradesh",
+          "v1": "1"
+        },
+        {
+          "label": "Bhokar, Maharashtra",
+          "v1": "1"
+        },
+        {
+          "label": "Srinagar, Jammu and Kashmir",
+          "v1": "1"
+        },
+        {
+          "label": "Sherghati, Bihar",
+          "v1": "1"
+        },
+        {
+          "label": "Chittaranjan, Jharkhand",
+          "v1": "1"
+        }
+      ]
+    },
+    "Countries": {
+      "name": "Locations",
+      "type": "horizontal_bar",
+      "desc": "See the places where your followers are concentrated.",
+      "headers": {
+        "v1": "viewer"
+      },
+      "colors": {
+        "v1": "#8EADFF"
+      },
+      "data": [
+        {
+          "label": "India",
+          "v1": "163"
+        },
+        {
+          "label": "United Arab Emirates",
+          "v1": "4"
+        },
+        {
+          "label": "Saudi Arabia",
+          "v1": "4"
+        },
+        {
+          "label": "Bahrain",
+          "v1": "2"
+        },
+        {
+          "label": "Hong Kong SAR China",
+          "v1": "1"
+        },
+        {
+          "label": "Australia",
+          "v1": "1"
+        },
+        {
+          "label": "Vietnam",
+          "v1": "1"
+        },
+        {
+          "label": "Indonesia",
+          "v1": "1"
+        },
+        {
+          "label": "Turkey",
+          "v1": "1"
+        },
+        {
+          "label": "United States",
+          "v1": "1"
+        },
+        {
+          "label": "Sri Lanka",
+          "v1": "1"
+        }
+      ]
+    }
+  },
+  "instaHeatMap": {
+    "name": "Followers Online Activity",
+    "desc": "Glance at your followers activity to determine when your audience is most likely to engage with your content.",
+    "xHeaders": [
+      "00:00 hrs",
+      "02:00 hrs",
+      "04:00 hrs",
+      "06:00 hrs",
+      "08:00 hrs",
+      "10:00 hrs",
+      "12:00 hrs",
+      "14:00 hrs",
+      "16:00 hrs",
+      "18:00 hrs",
+      "20:00 hrs",
+      "22:00 hrs"
+    ],
+    "yHeaders": [
+      "Sun",
+      "Sat",
+      "Fri",
+      "Thr",
+      "Wed",
+      "Tue",
+      "Mon"
+    ],
+    "data": [
+      {
+        "x": 0,
+        "y": 0,
+        "v": 0
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "v": 0
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "v": 0
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "v": 0
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "v": 0
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "v": 0
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "v": 0
+      },
+      {
+        "x": 7,
+        "y": 0,
+        "v": 0
+      },
+      {
+        "x": 8,
+        "y": 0,
+        "v": 0
+      },
+      {
+        "x": 9,
+        "y": 0,
+        "v": 0
+      },
+      {
+        "x": 10,
+        "y": 0,
+        "v": 0
+      },
+      {
+        "x": 11,
+        "y": 0,
+        "v": 0
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "v": 99
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "v": 82
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "v": 85
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "v": 92
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "v": 95
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "v": 91
+      },
+      {
+        "x": 6,
+        "y": 1,
+        "v": 35
+      },
+      {
+        "x": 7,
+        "y": 1,
+        "v": 16
+      },
+      {
+        "x": 8,
+        "y": 1,
+        "v": 22
+      },
+      {
+        "x": 9,
+        "y": 1,
+        "v": 49
+      },
+      {
+        "x": 10,
+        "y": 1,
+        "v": 87
+      },
+      {
+        "x": 11,
+        "y": 1,
+        "v": 72
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "v": 103
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "v": 82
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "v": 100
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "v": 104
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "v": 103
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "v": 78
+      },
+      {
+        "x": 6,
+        "y": 2,
+        "v": 53
+      },
+      {
+        "x": 7,
+        "y": 2,
+        "v": 22
+      },
+      {
+        "x": 8,
+        "y": 2,
+        "v": 19
+      },
+      {
+        "x": 9,
+        "y": 2,
+        "v": 41
+      },
+      {
+        "x": 10,
+        "y": 2,
+        "v": 83
+      },
+      {
+        "x": 11,
+        "y": 2,
+        "v": 93
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "v": 93
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "v": 97
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "v": 85
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "v": 96
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "v": 95
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "v": 83
+      },
+      {
+        "x": 6,
+        "y": 3,
+        "v": 48
+      },
+      {
+        "x": 7,
+        "y": 3,
+        "v": 14
+      },
+      {
+        "x": 8,
+        "y": 3,
+        "v": 22
+      },
+      {
+        "x": 9,
+        "y": 3,
+        "v": 49
+      },
+      {
+        "x": 10,
+        "y": 3,
+        "v": 62
+      },
+      {
+        "x": 11,
+        "y": 3,
+        "v": 95
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "v": 87
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "v": 78
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "v": 93
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "v": 91
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "v": 114
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "v": 84
+      },
+      {
+        "x": 6,
+        "y": 4,
+        "v": 38
+      },
+      {
+        "x": 7,
+        "y": 4,
+        "v": 18
+      },
+      {
+        "x": 8,
+        "y": 4,
+        "v": 23
+      },
+      {
+        "x": 9,
+        "y": 4,
+        "v": 53
+      },
+      {
+        "x": 10,
+        "y": 4,
+        "v": 84
+      },
+      {
+        "x": 11,
+        "y": 4,
+        "v": 100
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "v": 0
+      },
+      {
+        "x": 1,
+        "y": 5,
+        "v": 0
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "v": 0
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "v": 0
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "v": 0
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "v": 0
+      },
+      {
+        "x": 6,
+        "y": 5,
+        "v": 0
+      },
+      {
+        "x": 7,
+        "y": 5,
+        "v": 0
+      },
+      {
+        "x": 8,
+        "y": 5,
+        "v": 0
+      },
+      {
+        "x": 9,
+        "y": 5,
+        "v": 0
+      },
+      {
+        "x": 10,
+        "y": 5,
+        "v": 0
+      },
+      {
+        "x": 11,
+        "y": 5,
+        "v": 0
+      },
+      {
+        "x": 0,
+        "y": 6,
+        "v": 0
+      },
+      {
+        "x": 1,
+        "y": 6,
+        "v": 0
+      },
+      {
+        "x": 2,
+        "y": 6,
+        "v": 0
+      },
+      {
+        "x": 3,
+        "y": 6,
+        "v": 0
+      },
+      {
+        "x": 4,
+        "y": 6,
+        "v": 0
+      },
+      {
+        "x": 5,
+        "y": 6,
+        "v": 0
+      },
+      {
+        "x": 6,
+        "y": 6,
+        "v": 0
+      },
+      {
+        "x": 7,
+        "y": 6,
+        "v": 0
+      },
+      {
+        "x": 8,
+        "y": 6,
+        "v": 0
+      },
+      {
+        "x": 9,
+        "y": 6,
+        "v": 0
+      },
+      {
+        "x": 10,
+        "y": 6,
+        "v": 0
+      },
+      {
+        "x": 11,
+        "y": 6,
+        "v": 0
+      }
+    ]
+  },
+  "channelId": 24
+}

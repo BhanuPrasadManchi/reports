@@ -1,0 +1,56 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '2.5.0'
+	id 'io.spring.dependency-management' version '1.1.5'
+}
+
+group = 'com.RTDMPL'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	sourceCompatibility = '17'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'mysql:mysql-connector-java'
+
+	// https://mvnrepository.com/artifact/nz.net.ultraq.thymeleaf/thymeleaf-layout-dialect
+	implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:3.3.0'
+
+	// https://mvnrepository.com/artifact/com.google.code.gson/gson
+	implementation 'com.google.code.gson:gson:2.10.1'
+
+	// https://mvnrepository.com/artifact/com.itextpdf/kernel
+	implementation 'com.itextpdf:kernel:8.0.2'
+	// https://mvnrepository.com/artifact/com.itextpdf/html2pdf
+	implementation 'com.itextpdf:html2pdf:5.0.2'
+
+	// https://mvnrepository.com/artifact/org.xhtmlrenderer/flying-saucer-pdf
+//	implementation 'org.xhtmlrenderer:flying-saucer-pdf:9.8.0'
+
+	// https://mvnrepository.com/artifact/org.xhtmlrenderer/flying-saucer-core
+	implementation 'org.xhtmlrenderer:flying-saucer-core:9.8.0'
+
+	// https://mvnrepository.com/artifact/org.xhtmlrenderer/flying-saucer-pdf-itext5
+	implementation 'org.xhtmlrenderer:flying-saucer-pdf-itext5:9.7.2'
+
+	// https://mvnrepository.com/artifact/net.sf.jtidy/jtidy
+	implementation 'net.sf.jtidy:jtidy:r938'
+
+	implementation 'org.graalvm.js:js:20.3.0'
+
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}

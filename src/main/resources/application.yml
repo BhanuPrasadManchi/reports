@@ -1,0 +1,37 @@
+spring:
+  main:
+    banner-mode: off
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        ddl-auto: update
+        naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+        jdbc:
+          time_zone: UTC
+  # Initialize the datasource with available DDL and DML scripts
+  # spring.datasource.initialization-mode=always
+  sql:
+    init:
+      mode: always
+  ## Jackson Properties
+  jackson:
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
+    time-zone: UTC
+  ## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
+  datasource:
+    url: jdbc:mysql://localhost:3306/publlish?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false&useUnicode=yes&characterEncoding=UTF-8
+    username: root
+    password: flintzyrocks
+    hikari:
+      connection-init-sql: SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+  thymeleaf:
+    templateResolverOrder: 1
+
+# ELASTICSEARCH
+elasticsearch:
+  url: search-elasticsearch-eyjjmtifdw6bkdml4qpltdoaua.aos.us-east-1.on.aws
+  port: 443
+  user-name: admin
+  password: Letsrock@2024
