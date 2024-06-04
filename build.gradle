@@ -17,11 +17,14 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch'
-	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+//	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'mysql:mysql-connector-java'
+	implementation group: 'org.htmlunit', name: 'htmlunit', version: '4.1.0'
+	implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.6.0'
 
+//	implementation 'mysql:mysql-connector-java'
+	implementation("com.squareup.okhttp3:okhttp:4.12.0")
 	// https://mvnrepository.com/artifact/nz.net.ultraq.thymeleaf/thymeleaf-layout-dialect
 	implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:3.3.0'
 
@@ -38,6 +41,11 @@ dependencies {
 
 	// https://mvnrepository.com/artifact/org.xhtmlrenderer/flying-saucer-core
 	implementation 'org.xhtmlrenderer:flying-saucer-core:9.8.0'
+
+	implementation 'org.jsoup:jsoup:1.17.2'
+//	implementation 'org.xhtmlrenderer:flying-saucer-pdf-openpdf:9.5.1'
+	implementation 'com.openhtmltopdf:openhtmltopdf-pdfbox:1.0.10'
+	implementation 'com.openhtmltopdf:openhtmltopdf-core:1.0.10'
 
 	// https://mvnrepository.com/artifact/org.xhtmlrenderer/flying-saucer-pdf-itext5
 	implementation 'org.xhtmlrenderer:flying-saucer-pdf-itext5:9.7.2'
